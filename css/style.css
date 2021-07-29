@@ -1,12 +1,15 @@
+/* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
     margin: 0;padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+/* header */
 .header-bg{
     width: 100%;
     background-color: #264653;
 }
+/* button */
 .btn-style{
     display: inline-block;
     color: white;
@@ -20,6 +23,7 @@ body{
 .text-style{
     color: #E76F51;
 }
+/* latest */
 .latest-items{
     width: 377px;
     margin: 0 25px;
@@ -28,6 +32,7 @@ body{
     width: 337px;
     margin: 0 auto;
 }
+/* read more btn */
 .read-btn{
     border: 1px solid #E76F51;
     color: #E76F51;
@@ -37,9 +42,11 @@ body{
     background-color: #E76F51;
     color: white;
 }
+/* span style */
 .highlighted-text{
     color: #E76F51;
 }
+/* happy client */
 .client-item img{
     width: 149px;
     height: 149px;
@@ -54,9 +61,27 @@ body{
     color: #23A6F0;
     text-align: center;
 }
+/* rating */
 .rating{
     text-align: center;
 }
 .checked{
     color: #E76F51;
+}
+/* form */
+.form-style{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* choose you model */
+.bikes:hover{
+    opacity: 0.75;
+}
+/* footer */
+.footer-bg{
+    background-color: #0B0D17;
+}
+.nav-text li a{
+    color: #FFFFFF;
 }
